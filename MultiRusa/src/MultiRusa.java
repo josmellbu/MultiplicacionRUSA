@@ -24,7 +24,7 @@ public class MultiRusa{
         MultiRusa ru=new MultiRusa();
         ru.Multi(num1, num2);
         
-        System.out.println("El resultado es: ");
+        System.out.println("El resultado es: "+array.stream().mapToInt(Integer::intValue).sum());
         System.exit(0);
     }
 }
